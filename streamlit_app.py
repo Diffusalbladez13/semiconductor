@@ -1,11 +1,11 @@
 import streamlit as st
 import pandas as pd
 
-# Function to load data from Excel files
-def load_excel_data():
-    # Adjust the paths to your actual Excel files
-    challenge_df = pd.read_excel("challenges.xlsx", engine='openpyxl')
-    tools_df = pd.read_excel("tool.xlsx", engine='openpyxl')
+# Function to load data from CSV files
+def load_csv_data():
+    # Adjust the paths to your actual CSV files
+    challenge_df = pd.read_csv("challenge.csv")
+    tools_df = pd.read_csv("tool.csv")
     return challenge_df, tools_df
 
 # Main function where the Streamlit app is defined
@@ -31,7 +31,7 @@ def main():
         st.session_state['analyze_challenges_clicked'] = True
 
     if st.session_state.get('analyze_challenges_clicked', False):
-        challenge_df, tools_df = load_excel_data()
+        challenge_df, tools_df = load_csv_data()
         display_challenge_analysis(challenge_df, tools_df)
 
 # Function to display challenge analysis options and corresponding tools
