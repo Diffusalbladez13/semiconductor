@@ -14,7 +14,7 @@ def main():
     st.markdown("<h1 style='text-align: center;'>Embedded Graph in Streamlit</h1>", unsafe_allow_html=True)
 
     # Detailed graph URL - replace with your actual URL
-    detailed_graph_url = "https://your_detailed_graph_url"
+    detailed_graph_url = "https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2FDiffusalbladez13%2F95624373e22ba0cbf9eda3660772eebc%2Fraw%2F92907a8fc8fe9ea248cb37c4d13c6ef1d4c1f65f%2Fnetwork-9b01f649-aab.gexf"
     # Fancy button for the detailed graph
     button_html = f"""<a href="{detailed_graph_url}" target="_blank">
                       <button style='color: white; background-color: #4CAF50; border: none; padding: 10px 20px; 
@@ -23,12 +23,14 @@ def main():
     st.markdown(button_html, unsafe_allow_html=True)
 
     # Embedding the initial graph - replace with your actual URL
-    graph_url = "https://your_initial_graph_url"
+    graph_url = "https://ouestware.gitlab.io/retina/beta/#/graph/?url=https://gist.githubusercontent.com/Diffusalbladez13/5d5b8f2593120f01f9777b6421c1c117/raw/d122abbfa929be4273d4bc84431479210cbe7071/network-d00f20a4-22d.gexf"
     st.markdown(f'<iframe src="{graph_url}" width="100%" height="600" frameborder="0"></iframe>', unsafe_allow_html=True)
 
-    # Trigger the analysis of challenges
-    if st.button("Analyze challenges"):
-        st.session_state['analyze_challenges_clicked'] = True
+    # Center-align "Analyze challenges" button with styling
+    col1, col2, col3 = st.columns([1,2,1])
+    with col2:
+        if st.button("Analyze challenges", key="analyze"):
+            st.session_state['analyze_challenges_clicked'] = True
 
     if st.session_state.get('analyze_challenges_clicked', False):
         challenge_df, tools_df = load_csv_data()
@@ -62,26 +64,37 @@ def display_challenge_analysis(challenge_df, tools_df):
                 selected_challenges.append(challenge)
     with col2:
         for challenge in challenges[half:]:
-            if st.checkbox(challenge, key=f'checkbox_{challenge}_2', value=False):  # Ensure unique keys
+            if st.checkbox(challenge, key=f'checkbox_{challenge}_2', value=False):
                 selected_challenges.append(challenge)
 
     # Display tools related to selected challenges in a 3x3 grid
     if selected_challenges:
         st.write("Tools for Selected Challenges:")
-        filtered_tools = tools_df[tools_df['challenge'].isin(selected_challenges)]
-        cols = ['A', 'B', 'C', 'D', 'E', 'F']  # Adjust column names as necessary
+        filtered_tools = tools_df
+        cols = ['Consumers of semiconductors', 'Education and Research Institutions', 'Financial & Legal', 'Government & Regulators', 'Industry Associations and Alliances', 'Semiconductor manufacturing']  # Adjust column names as necessary
         selected_tools = {col: [] for col in cols}
         
-        # Create a 3x3 grid for tool checkboxes
+        # Determine the maximum number of tools in any column to ensure alignment
+        max_tools = max(len(filtered_tools[col].dropna().unique()) for col in cols)
+        
+        # Create a 3x3 grid for tool checkboxes, ensuring top alignment for all rows
         grid_cols = st.columns(3)
         for index, col in enumerate(cols):
             with grid_cols[index % 3]:
                 st.markdown(f"#### {col}")
                 st.markdown("<hr>", unsafe_allow_html=True)  # Horizontal line for visual separation
                 values = filtered_tools[col].dropna().unique()
-                for value in values:
-                    if st.checkbox(f"{value}", key=f'{col}_{value}', value=True):  # Auto-selected
-                        selected_tools[col].append(value)
+                # Ensure each column creates checkboxes for the maximum number of tools
+                for _ in range(max_tools):
+                    if _ < len(values):
+                        value = values[_]
+                        # Determine if this tool should be selected by default based on the "risk" filter
+                        default_selected = value in filtered_tools[filtered_tools['risk'].isin(selected_challenges)][col].unique()
+                        if st.checkbox(f"{value}", key=f'{col}_{value}_{_}', value=default_selected):
+                            selected_tools[col].append(value)
+                    else:
+                        # Create a placeholder to maintain alignment
+                        st.empty()
 
     # Analyze button to display selected tools and challenges
     if st.button("Analyze"):
