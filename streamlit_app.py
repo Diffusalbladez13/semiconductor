@@ -199,7 +199,7 @@ def display_challenge_analysis(challenge_df, tools_df, matrix_df, gpt_df):
 # Main function where the Streamlit app is defined
 def main():
     st.set_page_config(layout="wide")
-    st.markdown("<h1 style='text-align: center;'>Embedded Graph in Streamlit</h1>", unsafe_allow_html=True)
+    st.markdown("<h1 style='text-align: center;'>Semiconductor Ecosystem</h1>", unsafe_allow_html=True)
 
     detailed_graph_url = "https://ouestware.gitlab.io/retina/beta/#/graph/?url=https%3A%2F%2Fgist.githubusercontent.com%2FDiffusalbladez13%2F95624373e22ba0cbf9eda3660772eebc%2Fraw%2F92907a8fc8fe9ea248cb37c4d13c6ef1d4c1f65f%2Fnetwork-9b01f649-aab.gexf"
     button_html = f"""<a href="{detailed_graph_url}" target="_blank">
