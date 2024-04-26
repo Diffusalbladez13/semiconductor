@@ -1,0 +1,293 @@
+source,target
+A-Skills exchange programs,G-Data Sharing
+A-Skills exchange programs,A-Data Sharing
+A-Skills exchange programs,A-Forums to define problems and approach
+A-Skills exchange programs,A-New academic majors/research centers
+A-Skills exchange programs,A-Collaborator pull
+A-Skills exchange programs,OAssoc-Data Sharing
+A-Startups/Spinoffs,I-Skills exchange programs
+A-Startups/Spinoffs,I-Joint Ventures
+A-Joint Ventures,I-Data Sharing
+A-Joint Ventures,I-Repurposing existing production lines
+A-Joint Ventures,I-Joint Ventures
+A-Joint Ventures,A-Startups/Spinoffs
+A-Joint Ventures,A-Collaborator pull
+A-Collaborator pull,G-Skills exchange programs
+A-Collaborator pull,G-Collaborator Pull
+A-Collaborator pull,I-Data Sharing
+A-Collaborator pull,I-Joint Ventures
+A-Collaborator pull,I-Collaborator pull
+A-Collaborator pull,A-Data Sharing
+A-Collaborator pull,A-Skills exchange programs
+A-Collaborator pull,A-Joint Ventures
+A-Collaborator pull,OAssoc-Data Sharing
+A-Collaborator pull,OAssoc-Philanthropic donors
+A-Forums to define problems and approach,I-Standard Setting
+A-Forums to define problems and approach,A-Data Sharing
+A-Forums to define problems and approach,A-Skills exchange programs
+A-Forums to define problems and approach,A-New academic majors/research centers
+A-Forums to define problems and approach,A-Collaborator pull
+A-New academic majors/research centers,G-National Strategy
+A-New academic majors/research centers,I-Workforce development programs
+A-New academic majors/research centers,A-Lab Research
+A-New academic majors/research centers,OAssoc-Philanthropic donors
+A-Data Sharing,G-Data Sharing
+A-Data Sharing,I-Lab Research
+A-Data Sharing,I-Data Sharing
+A-Data Sharing,A-Lab Research
+A-Data Sharing,A-Skills exchange programs
+A-Data Sharing,OAssoc-Data Sharing
+A-Lab Research,G-Lab Research
+A-Lab Research,I-Lab Research
+A-Lab Research,A-New academic majors/research centers
+G-Open Government IP,I-Lab Research
+G-Open Government IP,I-Startups/Spinoffs
+G-Open Government IP,I-Standard Setting
+G-Open Government IP,A-Lab Research
+G-Open Government IP,A-Startups/Spinoffs
+G-Skills exchange programs,G-Data Sharing
+G-Skills exchange programs,G-Collaborator Pull
+G-Skills exchange programs,G-Forums to define problems and approach
+G-Skills exchange programs,I-Data Sharing
+G-Skills exchange programs,I-Skills exchange programs
+G-Skills exchange programs,A-Startups/Spinoffs
+G-Skills exchange programs,A-New academic majors/research centers
+G-Standard Setting,G-Infrastructure creation
+G-Standard Setting,I-Startups/Spinoffs
+G-Standard Setting,I-Repurposing existing production lines
+G-Standard Setting,I-Increase manufacturing capacity
+G-Standard Setting,I-Venture Capital 
+G-Standard Setting,I-Forums to define problems and approach
+G-Commercialization Funds,I-Startups/Spinoffs
+G-Commercialization Funds,I-Increase manufacturing capacity
+G-Commercialization Funds,I-Joint Ventures
+G-Commercialization Funds,I-Collaborator pull
+G-Commercialization Funds,A-Startups/Spinoffs
+G-Commercialization Funds,A-Joint Ventures
+G-Commercialization Funds,A-Collaborator pull
+G-Direct R&D Funding,G-Lab Research
+G-Infrastructure creation,I-Repurposing existing production lines
+G-Infrastructure creation,I-Increase manufacturing capacity
+G-Infrastructure creation,I-Venture Capital 
+G-Infrastructure creation,I-Stock sales
+G-Loan guarantees,I-Repurposing existing production lines
+G-Loan guarantees,I-Increase manufacturing capacity
+G-Loan guarantees,I-Venture Capital 
+G-Loan guarantees,I-Loans and debt financing
+G-Loans and debt financing,I-Lab Research
+G-Loans and debt financing,I-Repurposing existing production lines
+G-Loans and debt financing,I-Increase manufacturing capacity
+G-Loans and debt financing,I-Loans and debt financing
+G-Loans and debt financing,A-Lab Research
+G-Research Grants,G-Lab Research
+G-Research Grants,G-Open Government IP
+G-Research Grants,I-Lab Research
+G-Research Grants,I-Data Sharing
+G-Research Grants,I-Startups/Spinoffs
+G-Research Grants,A-Lab Research
+G-Research Grants,A-Data Sharing
+G-Research Grants,A-New academic majors/research centers
+G-Research Grants,OAssoc-Data Sharing
+G-Tax credits and incentives,I-Lab Research
+G-Tax credits and incentives,I-Repurposing existing production lines
+G-Tax credits and incentives,I-Increase manufacturing capacity
+G-Tax credits and incentives,I-Direct R&D Funding
+G-Tax credits and incentives,I-Workforce development programs
+G-Tax credits and incentives,A-Lab Research
+G-Collaborator Pull,G-Data Sharing
+G-Collaborator Pull,G-Forums to define problems and approach
+G-Collaborator Pull,I-Data Sharing
+G-Collaborator Pull,I-Collaborator pull
+G-Collaborator Pull,I-Forums to define problems and approach
+G-Collaborator Pull,A-Data Sharing
+G-Collaborator Pull,A-Forums to define problems and approach
+G-Collaborator Pull,A-Collaborator pull
+G-Collaborator Pull,OAssoc-Data Sharing
+G-Collaborator Pull,OAssoc-Philanthropic donors
+G-Collaborator Pull,OAssoc-Forums to define problems and approach
+G-Forums to define problems and approach,G-Data Sharing
+G-Forums to define problems and approach,G-Open Government IP
+G-Forums to define problems and approach,G-Skills exchange programs
+G-Forums to define problems and approach,G-Standard Setting
+G-Forums to define problems and approach,G-National Strategy
+G-Forums to define problems and approach,G-Regulatory approval and oversight
+G-Forums to define problems and approach,G-Collaborator Pull
+G-Forums to define problems and approach,G-Workforce development programs
+G-Forums to define problems and approach,G-Trade agreements to open new markets
+G-Forums to define problems and approach,G-Law changes
+G-Forums to define problems and approach,I-Standard Setting
+G-Forums to define problems and approach,I-Forums to define problems and approach
+G-Forums to define problems and approach,I-Workforce development programs
+G-Forums to define problems and approach,A-Skills exchange programs
+G-Forums to define problems and approach,A-Forums to define problems and approach
+G-Forums to define problems and approach,A-New academic majors/research centers
+G-Forums to define problems and approach,OAssoc-Forums to define problems and approach
+G-Gauranteed purchases,I-Startups/Spinoffs
+G-Gauranteed purchases,I-Repurposing existing production lines
+G-Gauranteed purchases,I-Increase manufacturing capacity
+G-Gauranteed purchases,I-Direct R&D Funding
+G-Gauranteed purchases,I-Research Grants
+G-Gauranteed purchases,I-Sales of goods/services
+G-Gauranteed purchases,A-Startups/Spinoffs
+G-Law changes,G-Data Sharing
+G-Law changes,G-Open Government IP
+G-Law changes,I-Startups/Spinoffs
+G-Law changes,I-Venture Capital 
+G-Law changes,I-Loans and debt financing
+G-Law changes,I-Joint Ventures
+G-Law changes,A-Startups/Spinoffs
+G-Law changes,A-Joint Ventures
+G-Law changes,OAssoc-Philanthropic donors
+G-National Strategy,G-Lab Research
+G-National Strategy,G-Data Sharing
+G-National Strategy,G-Open Government IP
+G-National Strategy,G-Skills exchange programs
+G-National Strategy,G-Standard Setting
+G-National Strategy,G-Direct R&D Funding
+G-National Strategy,G-Research Grants
+G-National Strategy,G-Tax credits and incentives
+G-National Strategy,G-Loans and debt financing
+G-National Strategy,G-Loan guarantees
+G-National Strategy,G-Infrastructure creation
+G-National Strategy,G-Commercialization Funds
+G-National Strategy,G-Regulatory approval and oversight
+G-National Strategy,G-Gauranteed purchases
+G-National Strategy,G-Forums to define problems and approach
+G-National Strategy,G-Workforce development programs
+G-National Strategy,G-Trade agreements to open new markets
+G-National Strategy,G-Law changes
+G-National Strategy,I-Lab Research
+G-National Strategy,I-Data Sharing
+G-National Strategy,A-Lab Research
+G-National Strategy,A-Data Sharing
+G-National Strategy,OAssoc-Data Sharing
+G-National Strategy,OAssoc-Philanthropic donors
+G-Regulatory approval and oversight,I-Repurposing existing production lines
+G-Regulatory approval and oversight,I-Skills exchange programs
+G-Regulatory approval and oversight,I-Venture Capital 
+G-Regulatory approval and oversight,I-Stock sales
+G-Regulatory approval and oversight,I-Shareholder advocacy
+G-Regulatory approval and oversight,OAssoc-Philanthropic donors
+G-Trade agreements to open new markets,I-Startups/Spinoffs
+G-Trade agreements to open new markets,I-Repurposing existing production lines
+G-Trade agreements to open new markets,I-Increase manufacturing capacity
+G-Trade agreements to open new markets,I-Sales of goods/services
+G-Trade agreements to open new markets,I-Joint Ventures
+G-Trade agreements to open new markets,I-Advertising
+G-Workforce development programs,A-New academic majors/research centers
+G-Data Sharing,G-Lab Research
+G-Data Sharing,G-Open Government IP
+G-Data Sharing,I-Data Sharing
+G-Data Sharing,I-Startups/Spinoffs
+G-Data Sharing,I-Joint Ventures
+G-Data Sharing,A-Data Sharing
+G-Data Sharing,A-Startups/Spinoffs
+G-Data Sharing,A-Joint Ventures
+G-Data Sharing,OAssoc-Data Sharing
+G-Lab Research,G-Open Government IP
+G-Lab Research,I-Lab Research
+G-Lab Research,A-Lab Research
+IBuy-Increased purchases,I-Sales of goods/services
+IBuy-Demand Pull,I-Collaborator Pull
+IBuy-Demand Pull,I-Lab Research
+IBuy-Demand Pull,I-Increase manufacturing capacity
+IFin-Startups/Spinoffs,I-Margers & Acquisitions
+IFin-Legal Advice ,I-Margers & Acquisitions
+IFin-Legal Advice ,I-Startups/Spinoffs
+IFin-Legal Advice ,I-Joint Ventures
+IFin-Loans and debt financing,I-Repurposing existing production lines
+IFin-Loans and debt financing,I-Increase manufacturing capacity
+IFin-Venture Capital ,I-Lab Research
+IFin-Venture Capital ,I-Repurposing existing production lines
+IFin-Venture Capital ,I-Increase manufacturing capacity
+IFin-Market Research,I-Collaborator pull
+IFin-Market Research,I-Advertising
+IFin-Market Research,I-Sales of goods/services
+IFin-Shareholder advocacy,I-Direct R&D Funding
+I-Increase manufacturing capacity,I-Sales of goods/services
+I-Increase manufacturing capacity,I-Workforce development programs
+I-Margers & Acquisitions,I-Increase manufacturing capacity
+I-Margers & Acquisitions,I-Lab Research
+I-Repurposing existing production lines,I-Sales of goods/services
+I-Repurposing existing production lines,I-Workforce development programs
+I-Startups/Spinoffs,I-Skills exchange programs
+I-Startups/Spinoffs,A-Skills exchange programs
+I-Direct R&D Funding,I-Lab Research
+I-Sales of goods/services,I-Lab Research
+I-Sales of goods/services,I-Increase manufacturing capacity
+I-Stock sales,I-Lab Research
+I-Stock sales,I-Repurposing existing production lines
+I-Stock sales,I-Increase manufacturing capacity
+I-Stock sales,I-Shareholder advocacy
+I-Advertising,I-Sales of goods/services
+I-Advertising,I-Collaborator pull
+I-Collaborator pull,G-Skills exchange programs
+I-Collaborator pull,G-Collaborator Pull
+I-Collaborator pull,G-Forums to define problems and approach
+I-Collaborator pull,G-Workforce development programs
+I-Collaborator pull,G-Trade agreements to open new markets
+I-Collaborator pull,I-Skills exchange programs
+I-Collaborator pull,I-Forums to define problems and approach
+I-Collaborator pull,A-Skills exchange programs
+I-Collaborator pull,A-Collaborator pull
+I-Collaborator pull,OAssoc-Philanthropic donors
+I-Forums to define problems and approach,I-Skills exchange programs
+I-Forums to define problems and approach,I-Standard Setting
+I-Forums to define problems and approach,I-Joint Ventures
+I-Forums to define problems and approach,I-Collaborator pull
+I-Forums to define problems and approach,I-Workforce development programs
+I-Forums to define problems and approach,A-Forums to define problems and approach
+I-Forums to define problems and approach,A-New academic majors/research centers
+I-Forums to define problems and approach,OAssoc-Forums to define problems and approach
+I-Workforce development programs,I-Increase manufacturing capacity
+I-Workforce development programs,A-New academic majors/research centers
+I-Data Sharing,G-Data Sharing
+I-Data Sharing,G-Standard Setting
+I-Data Sharing,I-Lab Research
+I-Data Sharing,I-Forums to define problems and approach
+I-Data Sharing,A-Lab Research
+I-Data Sharing,A-Data Sharing
+I-Data Sharing,OAssoc-Data Sharing
+I-Lab Research,G-Lab Research
+I-Lab Research,I-Startups/Spinoffs
+OAssoc-Skills exchange programs,G-Data Sharing
+OAssoc-Skills exchange programs,G-Skills exchange programs
+OAssoc-Skills exchange programs,I-Collaborator pull
+OAssoc-Skills exchange programs,I-Forums to define problems and approach
+OAssoc-Skills exchange programs,A-Data Sharing
+OAssoc-Skills exchange programs,A-Skills exchange programs
+OAssoc-Skills exchange programs,A-Joint Ventures
+OAssoc-Skills exchange programs,A-New academic majors/research centers
+OAssoc-Skills exchange programs,OAssoc-Data Sharing
+OAssoc-Standard Setting,G-Infrastructure creation
+OAssoc-Standard Setting,I-Repurposing existing production lines
+OAssoc-Standard Setting,I-Increase manufacturing capacity
+OAssoc-Standard Setting,I-Venture Capital 
+OAssoc-Standard Setting,I-Joint Ventures
+OAssoc-Standard Setting,I-Collaborator pull
+OAssoc-Standard Setting,A-Startups/Spinoffs
+OAssoc-Forums to define problems and approach,I-Lab Research
+OAssoc-Forums to define problems and approach,I-Skills exchange programs
+OAssoc-Forums to define problems and approach,I-Standard Setting
+OAssoc-Forums to define problems and approach,I-Joint Ventures
+OAssoc-Forums to define problems and approach,I-Collaborator pull
+OAssoc-Forums to define problems and approach,I-Workforce development programs
+OAssoc-Forums to define problems and approach,A-Forums to define problems and approach
+OAssoc-Forums to define problems and approach,A-New academic majors/research centers
+OAssoc-Forums to define problems and approach,OAssoc-Forums to define problems and approach
+OAssoc-Data Sharing,G-Data Sharing
+OAssoc-Data Sharing,I-Lab Research
+OAssoc-Data Sharing,I-Data Sharing
+OAssoc-Data Sharing,A-Lab Research
+OAssoc-Data Sharing,A-Data Sharing
+OAssoc-Data Sharing,A-Collaborator pull
+I-Skills exchange programs,IBuy-Increased purchases
+I-Joint Ventures,IBuy-Demand Pull
+OAssoc-Philanthropic donors,IFin-Startups/Spinoffs
+I-Standard Setting,IFin-Legal Advice 
+I-Shareholder advocacy,IFin-Loans and debt financing
+I-Venture Capital ,IFin-Venture Capital 
+I-Research Grants,IFin-Market Research
+I-Loans and debt financing,IFin-Shareholder advocacy
+I-Research Grants,OAssoc-Skills exchange programs
+I-Loans and debt financing,OAssoc-Standard Setting
