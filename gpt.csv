@@ -56,7 +56,7 @@ G-Standard Setting,G-Infrastructure creation
 G-Standard Setting,I-Startups/Spinoffs
 G-Standard Setting,I-Repurposing existing production lines
 G-Standard Setting,I-Increase manufacturing capacity
-G-Standard Setting,I-Venture Capital 
+G-Standard Setting,I-Venture Capital
 G-Standard Setting,I-Forums to define problems and approach
 G-Commercialization Funds,I-Startups/Spinoffs
 G-Commercialization Funds,I-Increase manufacturing capacity
@@ -68,11 +68,11 @@ G-Commercialization Funds,A-Collaborator pull
 G-Direct R&D Funding,G-Lab Research
 G-Infrastructure creation,I-Repurposing existing production lines
 G-Infrastructure creation,I-Increase manufacturing capacity
-G-Infrastructure creation,I-Venture Capital 
+G-Infrastructure creation,I-Venture Capital
 G-Infrastructure creation,I-Stock sales
 G-Loan guarantees,I-Repurposing existing production lines
 G-Loan guarantees,I-Increase manufacturing capacity
-G-Loan guarantees,I-Venture Capital 
+G-Loan guarantees,I-Venture Capital
 G-Loan guarantees,I-Loans and debt financing
 G-Loans and debt financing,I-Lab Research
 G-Loans and debt financing,I-Repurposing existing production lines
@@ -132,7 +132,7 @@ G-Gauranteed purchases,A-Startups/Spinoffs
 G-Law changes,G-Data Sharing
 G-Law changes,G-Open Government IP
 G-Law changes,I-Startups/Spinoffs
-G-Law changes,I-Venture Capital 
+G-Law changes,I-Venture Capital
 G-Law changes,I-Loans and debt financing
 G-Law changes,I-Joint Ventures
 G-Law changes,A-Startups/Spinoffs
@@ -164,7 +164,7 @@ G-National Strategy,OAssoc-Data Sharing
 G-National Strategy,OAssoc-Philanthropic donors
 G-Regulatory approval and oversight,I-Repurposing existing production lines
 G-Regulatory approval and oversight,I-Skills exchange programs
-G-Regulatory approval and oversight,I-Venture Capital 
+G-Regulatory approval and oversight,I-Venture Capital
 G-Regulatory approval and oversight,I-Stock sales
 G-Regulatory approval and oversight,I-Shareholder advocacy
 G-Regulatory approval and oversight,OAssoc-Philanthropic donors
@@ -188,37 +188,71 @@ G-Lab Research,G-Open Government IP
 G-Lab Research,I-Lab Research
 G-Lab Research,A-Lab Research
 IBuy-Increased purchases,I-Sales of goods/services
+IBuy-Increased purchases,G-Infrastructure creation
+IBuy-Increased purchases,G-Tax credits and incentives
 IBuy-Demand Pull,I-Collaborator Pull
 IBuy-Demand Pull,I-Lab Research
 IBuy-Demand Pull,I-Increase manufacturing capacity
-IFin-Startups/Spinoffs,I-Margers & Acquisitions
-IFin-Legal Advice ,I-Margers & Acquisitions
-IFin-Legal Advice ,I-Startups/Spinoffs
-IFin-Legal Advice ,I-Joint Ventures
-IFin-Loans and debt financing,I-Repurposing existing production lines
-IFin-Loans and debt financing,I-Increase manufacturing capacity
-IFin-Venture Capital ,I-Lab Research
-IFin-Venture Capital ,I-Repurposing existing production lines
-IFin-Venture Capital ,I-Increase manufacturing capacity
-IFin-Market Research,I-Collaborator pull
-IFin-Market Research,I-Advertising
-IFin-Market Research,I-Sales of goods/services
-IFin-Shareholder advocacy,I-Direct R&D Funding
+IBuy-Demand Pull,I-Repurposing existing production lines
+IBuy-Demand Pull,G-Standard Setting
 I-Increase manufacturing capacity,I-Sales of goods/services
 I-Increase manufacturing capacity,I-Workforce development programs
-I-Margers & Acquisitions,I-Increase manufacturing capacity
-I-Margers & Acquisitions,I-Lab Research
+I-Mergers & Acquisitions,I-Increase manufacturing capacity
+I-Mergers & Acquisitions,I-Lab Research
 I-Repurposing existing production lines,I-Sales of goods/services
 I-Repurposing existing production lines,I-Workforce development programs
+I-Skills exchange programs,A-New academic majors/research centers
+I-Skills exchange programs,G-Skills exchange programs
+I-Standard Setting,G-Regulatory approval and oversight
+I-Standard Setting,G-Forums to define problems and approach
 I-Startups/Spinoffs,I-Skills exchange programs
 I-Startups/Spinoffs,A-Skills exchange programs
 I-Direct R&D Funding,I-Lab Research
+IFin-Startups/Spinoffs,I-Mergers & Acquisitions
+IFin-Startups/Spinoffs,G-Commercialization Funds
+IFin-Startups/Spinoffs,G-Direct R&D Funding
+IFin-Startups/Spinoffs,A-Joint Ventures
+IFin-Startups/Spinoffs,I-Joint Ventures
+IFin-Startups/Spinoffs,I-Venture Capital
+IFin-Legal Advice,I-Mergers & Acquisitions
+IFin-Legal Advice,I-Startups/Spinoffs
+IFin-Legal Advice,I-Joint Ventures
+IFin-Legal Advice,G-Open Government IP
+IFin-Legal Advice,G-Regulatory approval and oversight
+IFin-Loans and debt financing,I-Repurposing existing production lines
+IFin-Loans and debt financing,I-Increase manufacturing capacity
+IFin-Loans and debt financing,I-Direct R&D Funding
+IFin-Loans and debt financing,I-Mergers & Acquisitions
+IFin-Venture Capital,I-Lab Research
+IFin-Venture Capital,I-Repurposing existing production lines
+IFin-Venture Capital,I-Increase manufacturing capacity
+IFin-Venture Capital,I-Venture Capital
+IFin-Venture Capital,I-Joint Ventures
+IFin-Venture Capital,A-Startups/Spinoffs
+IFin-Market Research,I-Collaborator pull
+IFin-Market Research,I-Advertising
+IFin-Market Research,I-Sales of goods/services
+IFin-Market Research,I-Data Sharing
+IFin-Market Research,G-Data Sharing
+IFin-Shareholder advocacy,I-Direct R&D Funding
+IFin-Shareholder advocacy,OAssoc-Forums to define problems and approach
+IFin-Shareholder advocacy,I-Forums to define problems and approach
+I-Joint Ventures,IFin-Loans and debt financing
+I-Joint Ventures,G-Regulatory approval and oversight
+I-Loans and debt financing,I-Mergers & Acquisitions
+I-Loans and debt financing,A-Lab Research
+I-Loans and debt financing,I-Increase manufacturing capacity
+I-Research Grants,A-Lab Research
+I-Research Grants,A-New academic majors/research centers
 I-Sales of goods/services,I-Lab Research
 I-Sales of goods/services,I-Increase manufacturing capacity
 I-Stock sales,I-Lab Research
 I-Stock sales,I-Repurposing existing production lines
 I-Stock sales,I-Increase manufacturing capacity
 I-Stock sales,I-Shareholder advocacy
+I-Venture Capital,I-Mergers & Acquisitions
+I-Venture Capital,I-Loans and debt financing
+I-Venture Capital,I-Research Grants
 I-Advertising,I-Sales of goods/services
 I-Advertising,I-Collaborator pull
 I-Collaborator pull,G-Skills exchange programs
@@ -239,6 +273,7 @@ I-Forums to define problems and approach,I-Workforce development programs
 I-Forums to define problems and approach,A-Forums to define problems and approach
 I-Forums to define problems and approach,A-New academic majors/research centers
 I-Forums to define problems and approach,OAssoc-Forums to define problems and approach
+I-Shareholder advocacy,I-Forums to define problems and approach
 I-Workforce development programs,I-Increase manufacturing capacity
 I-Workforce development programs,A-New academic majors/research centers
 I-Data Sharing,G-Data Sharing
@@ -259,13 +294,22 @@ OAssoc-Skills exchange programs,A-Skills exchange programs
 OAssoc-Skills exchange programs,A-Joint Ventures
 OAssoc-Skills exchange programs,A-New academic majors/research centers
 OAssoc-Skills exchange programs,OAssoc-Data Sharing
+OAssoc-Skills exchange programs,I-Workforce development programs
 OAssoc-Standard Setting,G-Infrastructure creation
 OAssoc-Standard Setting,I-Repurposing existing production lines
 OAssoc-Standard Setting,I-Increase manufacturing capacity
-OAssoc-Standard Setting,I-Venture Capital 
+OAssoc-Standard Setting,I-Venture Capital
 OAssoc-Standard Setting,I-Joint Ventures
 OAssoc-Standard Setting,I-Collaborator pull
 OAssoc-Standard Setting,A-Startups/Spinoffs
+OAssoc-Standard Setting,G-Standard Setting
+OAssoc-Standard Setting,G-Regulatory approval and oversight
+OAssoc-Standard Setting,I-Data Sharing
+OAssoc-Philanthropic donors,A-Skills exchange programs
+OAssoc-Philanthropic donors,A-Startups/Spinoffs
+OAssoc-Philanthropic donors,A-New academic majors/research centers
+OAssoc-Philanthropic donors,A-Lab Research
+OAssoc-Philanthropic donors,IFin-Loans and debt financing
 OAssoc-Forums to define problems and approach,I-Lab Research
 OAssoc-Forums to define problems and approach,I-Skills exchange programs
 OAssoc-Forums to define problems and approach,I-Standard Setting
@@ -275,19 +319,40 @@ OAssoc-Forums to define problems and approach,I-Workforce development programs
 OAssoc-Forums to define problems and approach,A-Forums to define problems and approach
 OAssoc-Forums to define problems and approach,A-New academic majors/research centers
 OAssoc-Forums to define problems and approach,OAssoc-Forums to define problems and approach
+OAssoc-Forums to define problems and approach,OAssoc-Standard Setting
 OAssoc-Data Sharing,G-Data Sharing
 OAssoc-Data Sharing,I-Lab Research
 OAssoc-Data Sharing,I-Data Sharing
 OAssoc-Data Sharing,A-Lab Research
 OAssoc-Data Sharing,A-Data Sharing
 OAssoc-Data Sharing,A-Collaborator pull
-I-Skills exchange programs,IBuy-Increased purchases
-I-Joint Ventures,IBuy-Demand Pull
-OAssoc-Philanthropic donors,IFin-Startups/Spinoffs
-I-Standard Setting,IFin-Legal Advice 
-I-Shareholder advocacy,IFin-Loans and debt financing
-I-Venture Capital ,IFin-Venture Capital 
-I-Research Grants,IFin-Market Research
-I-Loans and debt financing,IFin-Shareholder advocacy
-I-Research Grants,OAssoc-Skills exchange programs
-I-Loans and debt financing,OAssoc-Standard Setting
+OAssoc-Data Sharing,I-Collaborator pull
+G-Infrastructure creation,IBuy-Increased purchases
+G-Tax credits and incentives,IBuy-Increased purchases
+I-Increase manufacturing capacity,IBuy-Demand Pull
+I-Repurposing existing production lines,IBuy-Demand Pull
+G-Standard Setting,IBuy-Demand Pull
+G-Commercialization Funds,IFin-Startups/Spinoffs
+G-Direct R&D Funding,IFin-Startups/Spinoffs
+A-Joint Ventures,IFin-Startups/Spinoffs
+I-Joint Ventures,IFin-Startups/Spinoffs
+I-Venture Capital,IFin-Startups/Spinoffs
+G-Open Government IP,IFin-Legal Advice
+G-Regulatory approval and oversight,IFin-Legal Advice
+I-Direct R&D Funding,IFin-Loans and debt financing
+I-Mergers & Acquisitions,IFin-Loans and debt financing
+I-Venture Capital,IFin-Venture Capital
+I-Joint Ventures,IFin-Venture Capital
+A-Startups/Spinoffs,IFin-Venture Capital
+I-Advertising,IFin-Market Research
+I-Data Sharing,IFin-Market Research
+G-Data Sharing,IFin-Market Research
+OAssoc-Forums to define problems and approach,IFin-Shareholder advocacy
+I-Forums to define problems and approach,IFin-Shareholder advocacy
+I-Workforce development programs,OAssoc-Skills exchange programs
+G-Skills exchange programs,OAssoc-Skills exchange programs
+G-Standard Setting,OAssoc-Standard Setting
+G-Regulatory approval and oversight,OAssoc-Standard Setting
+I-Data Sharing,OAssoc-Standard Setting
+OAssoc-Standard Setting,OAssoc-Forums to define problems and approach
+I-Collaborator pull,OAssoc-Data Sharing
