@@ -303,7 +303,7 @@ def display_challenge_analysis(challenge_df, tools_df, matrix_df, gpt_df, info_d
 
                             # Visualize the shortest path
                             visualize_shortest_path(G, path)
-                            st.markdown("<h3 style='text-align: center;'>Discription of interventions & KPIs to track</h2>", unsafe_allow_html=True)
+                            st.markdown("<h3 style='text-align: center;'>Description of interventions & KPIs to track</h2>", unsafe_allow_html=True)
                             display_filtered_info(info_df, st.session_state['path'])
 
                         else:
