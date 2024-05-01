@@ -66,6 +66,9 @@ def solve_tsp_with_or_tools(G, selected_nodes, forbidden_nodes):
     # Ensure selected_nodes are actually in G and not in forbidden_nodes
     selected_nodes = [node for node in selected_nodes if node in G and node not in forbidden_nodes]
 
+    # Pre-sort selected_nodes to prioritize nodes starting with "G"
+    selected_nodes.sort(key=lambda x: (not x.startswith('G'), x))
+
     node_to_index = {node: i for i, node in enumerate(selected_nodes)}
     index_to_node = {i: node for node, i in node_to_index.items()}
 
@@ -79,11 +82,9 @@ def solve_tsp_with_or_tools(G, selected_nodes, forbidden_nodes):
                 distances_row.append(0)
             else:
                 try:
-                    # Attempt to find the shortest path length
                     path_length = nx.shortest_path_length(G, source=selected_nodes[i], target=selected_nodes[j], weight='weight', method='dijkstra')
                     distances_row.append(path_length)
                 except nx.NetworkXNoPath:
-                    # If no path is found, return a message and halt the function
                     st.error(f"Node {selected_nodes[j]} not reachable from {selected_nodes[i]}. Please rethink the forbidden nodes.")
                     return None
         distance_matrix.append(distances_row)
