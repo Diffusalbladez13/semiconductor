@@ -170,7 +170,7 @@ def display_challenge_analysis(challenge_df, tools_df, matrix_df, gpt_df, info_d
 
     if st.session_state.get('show_challenges', False):
         # Added centered, larger font size line "Step 1/3: Select Challenges & Tools" before the player filter
-        st.markdown("<h2 style='text-align: center;'>Step 1/3: Select Challenges & Tools</h2>", unsafe_allow_html=True)
+        st.markdown("<h2 style='text-align: center;'>Step 1/3: Select Player, Challenges & Tools</h2>", unsafe_allow_html=True)
         
         player_options = ['All'] + list(challenge_df['player'].unique())
         selected_player = st.selectbox("Player", options=player_options, index=0, key='selected_player')
